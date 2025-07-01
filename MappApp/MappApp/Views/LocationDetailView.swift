@@ -104,6 +104,7 @@ extension LocationDetailView {
         Button(action: {
             vm.sheetLocation = nil
         }) {
+            
             Image(systemName: "xmark")
                 .font(.headline)
                 .foregroundColor(.primary)
